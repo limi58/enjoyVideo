@@ -38,13 +38,13 @@ $ clip < ~/.ssh/id_rsa.pub
 ```
 这样的话ssh key就在你的剪贴板里了，不信粘贴出来看看  
 然后打开github.com，进入setting，如图  
-![](https://help.github.com/assets/images/help/settings/userbar-account-settings.png)
+![](https://help.github.com/assets/images/help/settings/userbar-account-settings.png)  
 在用户设置侧边栏选择SSH keys，如图  
-![](https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png)
+![](https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png)  
 点击Add SSH key.如图  
-![](https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png)
+![](https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png)  
 在title字段里随便填，一般填你的设备名字，然后key里就填你刚刚剪贴板里面的东西，如图  
-![](https://help.github.com/assets/images/help/settings/ssh-key-paste.png)
+![](https://help.github.com/assets/images/help/settings/ssh-key-paste.png)  
 最后add key  
 为了验证到底添加ssh成功没，继续在git bash里：
 ```
