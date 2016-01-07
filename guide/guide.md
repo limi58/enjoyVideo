@@ -1,8 +1,8 @@
-# 以这个AV项目为例的git教程（当然也适用所有的git）
+# 以这个EV项目为例的git教程（当然也适用所有的git）
 虽然东西多，反正下面跟着一步一步来就可以了，主要是前期配置略烦
 
 ## 注册github
-网址：https://github.com
+网址：https://github.com 这很简单了吧
 
 ## 安装git
 [下载git](https://git-for-windows.github.io/)，然后安装，一直下一步（安装路径自己选）  
@@ -57,3 +57,53 @@ Hi username! You've successfully authenticated, but GitHub does not
 provide shell access.
 ```
 不成功的话就看看前面步骤对不对，实在不行就群里@米不过分吧~。~
+
+## clone到本地
+因为这个EV项目是在远程嘛，所以要把它克隆到本地，很简单
+
+在这个项目首页复制SSH地址（别复制成HTTPs的了），如图
+
+![](clone.png)
+
+然后在任意你喜欢的文件夹下按住shift不放，然后右键，选择“在此处打开命令窗口”，然后：(clone你刚刚复制的ssh地址)
+```
+$ git clone git@github.com:limi58/enjoyVideo.git
+```
+
+完了成功之后是不是出现了项目文件夹了！
+
+## 更新本地项目
+比如西瓜刚刚push了新番号，我想立即同步到本地咋办？很简单，把命令行定位到项目根目录，然后：
+```
+$ git pull
+```
+注意看提示，如果失败说明你们冲突了，冲突的话记得在群里吼一声，要协同解决冲突
+
+## push到远程
+自己添加了新番号要推送到远程咋办？也很简单
+
+首先添加代码到暂存区：
+```
+$ git add -A
+```
+然后提交
+```
+$ git commit -m "这里面填你这次更新信息（尽量用英文）"
+```
+然后拉取最新代码（如果有最新的话）
+```
+$ git pull
+```
+最后push到远程
+```
+$ git push origin master
+```
+OK大功告成！
+
+## 文档格式
+github可以用markdown来控制文本的格式样式，比如字体大小和代码样式，markdown很简单，百度一下即可一晚上学会
+
+## 总结
+就是配置略麻烦，然后以后的工作流就是：拉取代码————推送代码。就酱
+
+写的很粗糙和简单，可以看详细中文教程：http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
