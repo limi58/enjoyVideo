@@ -13,6 +13,11 @@ enjoy video all your life
 图片  
 种子链接（可选）  
 ```
+# Tool
+> 图书馆：http://www.look4lib.com/
+> 仓库：http://www.torrentkitty.net/
 
-# guide
+# Guide
 不会git的[点这](https://github.com/limi58/enjoyVideo/blob/master/guide/guide.md)，搞不定的叫limi58！
+
+
