@@ -1,6 +1,6 @@
-# EnjoyVideo（EV）
+﻿# EnjoyVideo（EV）
 enjoy video all your life
-> 人80%的快乐来自SEX，不要扼杀快乐
+> 人80%的快乐来自SEX，不要扼杀快乐。
 
 # Summary
 #### 月刊
