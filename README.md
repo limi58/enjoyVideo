@@ -4,7 +4,7 @@ enjoy video all your life
 
 # Summary
 #### 2016年月刊
-[201601](https://github.com/limi58/enjoyVideo/blob/master/201601.md)  
+[201601](201601.md)  
 
 # Contribute
 按格式Pull request  
@@ -14,11 +14,11 @@ enjoy video all your life
 种子链接（可选）  
 ```
 # Tool
-> 图书馆：http://www.look4lib.com/
+> 图书馆（[获取最新图书馆](guide/getLib.md)）：http://www.look4lib.com/
 
 > 仓库：http://www.torrentkitty.net/
 
 # Guide
-不会git的[点这](https://github.com/limi58/enjoyVideo/blob/master/guide/guide.md)，搞不定的叫limi58！
+不会git的[点这](guide/guide.md)，搞不定的叫limi58！
 
 
