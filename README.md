@@ -3,8 +3,8 @@ enjoy video all your life
 > 人80%的快乐来自SEX，不要扼杀快乐
 
 # Summary
-#### 2016年月刊
-[201601](201601.md)  
+#### 月刊
+[2016月刊](2016)  
 
 # Contribute
 按格式Pull request  
