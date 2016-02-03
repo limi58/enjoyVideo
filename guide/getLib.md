@@ -1,6 +1,7 @@
 # 获取最新图书馆地址方法（via： javlib.com）
 
 为服务中国地区网友，取得最新网址的方法为：
+
 1. 目前是 http://www.look4lib.com
 
 1. 我们的入口 javlib.com ，希望可以记住这个永久地址。
