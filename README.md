@@ -8,6 +8,7 @@ enjoy video all your life
 
 # Contribute
 按格式Pull request  
+文件名是 `年 + 月`.md ，如：201601.md  
 ```
 番号  
 图片  
@@ -21,6 +22,7 @@ enjoy video all your life
 # Guide
 不会git的[点这](guide/guide.md)，搞不定的叫limi58！
 
-[获取最新图书馆方法](guide/getLib.md)
+[获取最新图书馆官方方法](guide/getLib.md)  
+[米不过分图书馆小爬虫源码](jav_spider/)  
 
 
