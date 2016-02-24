@@ -23,6 +23,6 @@ enjoy video all your life
 不会git的[点这](guide/guide.md)，搞不定的叫limi58！
 
 [获取最新图书馆官方方法](guide/getLib.md)  
-[图书馆地址解析小爬虫源码](jav_spider/)  
+[米不过分图书馆地址解析小爬虫源码](jav_spider/)  
 
 
