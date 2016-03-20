@@ -23,4 +23,3 @@ http.createServer((req, res)=>{
   router.get('/getTimes', getTimesController)
 
 }).listen(3000)
-
