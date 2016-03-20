@@ -1,8 +1,21 @@
-<!DOCTYPE html>
+const redisController = require('./redisController')
+
+module.exports = function(req, res){
+  redisController.addIp(req)
+  redisController.addTime()
+  res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})
+  res.end(getHtml())
+}
+
+function getHtml(){
+  return  `<!DOCTYPE html>
 <html>
 <head>
   <title>jav地址解析 - 米不过分</title>
   <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 <body>
@@ -16,7 +29,7 @@
   (function(){
     var xhr = new XMLHttpRequest()
 
-    xhr.open('get', 'http://192.241.239.57:3001')
+    xhr.open('get', '/javAPI')
     xhr.send()
 
     xhr.addEventListener('readystatechange', function(){
@@ -29,4 +42,5 @@
   })()
 </script>
 </body>
-</html>
+</html>`
+}
