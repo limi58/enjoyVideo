@@ -1,8 +1,9 @@
-const redisController = require('./redisController')
+const fsController = require('./fsController')
 
 module.exports = function(req, res){
-  redisController.addIp(req)
-  redisController.addTime()
+  // redisController.addIp(req)
+  // redisController.addTime()
+  fsController.add(req)
   res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})
   res.end(getHtml())
 }

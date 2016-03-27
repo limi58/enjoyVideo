@@ -1,9 +1,11 @@
 {
   "name": "jav_spider",
   "version": "1.0.0",
-  "description": "DEMO：http://192.241.239.57:3000",
+  "description": "DEMO：http://162.243.154.80:3000",
   "main": "app.js",
   "scripts": {
+    "start": "pm2 start app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +13,6 @@
   "dependencies": {
     "cheerio": "^0.20.0",
     "redis": "^2.4.2",
-    "superagent": "^1.8.0-beta.2"
+    "superagent": "^1.8.3"
   }
 }
