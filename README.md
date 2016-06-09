@@ -14,7 +14,7 @@ enjoy video all your life
 种子链接（可选）  
 ```
 # Tool
-> 图书馆：http://www.look4lib.com/
+> 图书馆：http://www.javlib.com/
 
 > 仓库：http://www.torrentkitty.net/
 
