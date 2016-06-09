@@ -1,6 +1,5 @@
-﻿# EnjoyVideo（EV）
+﻿# EnjoyVideo
 enjoy video all your life
-> 人80%的快乐来自SEX，不要扼杀快乐。
 
 # Summary
 #### 月刊
@@ -20,9 +19,7 @@ enjoy video all your life
 > 仓库：http://www.torrentkitty.net/
 
 # Guide
-不会git的[点这](guide/guide.md)，搞不定的叫limi58！
-
 [获取最新图书馆官方方法](guide/getLib.md)  
-[米不过分图书馆地址解析小爬虫源码](jav_spider/)  
+[图书馆地址解析小爬虫源码](jav_spider/)  
 
 
