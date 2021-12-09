@@ -14,9 +14,9 @@ enjoy video all your life
 种子链接（可选）  
 ```
 # Tool
-> 图书馆：http://www.javlib.com/
 
-> 仓库：http://www.torrentkitty.net/
+- 图书馆：http://www.javlibrary.com/
+- 仓库：https://www.sosomagnet.com/
 
 # Guide
 [获取最新图书馆官方方法](guide/getLib.md)  
